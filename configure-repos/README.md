@@ -11,12 +11,13 @@ This python script is used to setup a classroom GitHub environment with individu
     **directorystructure-team.txt** and **directorystructure-individual.txt**
    
     These files will define the directory structure you want each repo to have. One directory name per line. Such as: 
-    
-* Written Work
-* Project src
-* Final Submission
-* Grades
-    
+```   
+Written Work
+Project src
+Final Submission
+Grades
+```
+
 3.  In the same folder create a CSV file with two columns, the first being CCIS_ID and the second being Team assignment 
 
 | CCIS_ID  | TEAM |
@@ -40,5 +41,3 @@ githuborg = 'CS5500'
 ```*python setup-repos.py*```
 
 You will be asked to provide username and password of your GitHub account and the course you want to work with (must match the config.py githuborg).
-
-```
