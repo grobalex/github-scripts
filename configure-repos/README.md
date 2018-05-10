@@ -32,8 +32,10 @@ Grades
 
 4. Edit *config.py* to match the parameters of your github course:
 
-```githuburl = 'github.ccs.neu.edu'
-githuborg = 'CS5500'```
+```
+githuburl = 'github.ccs.neu.edu'
+githuborg = 'CS5500'
+```
 5. Execute the python script with:
 
 ```python setup-repos.py```
