@@ -40,4 +40,4 @@ githuborg = 'CS5500'
 
 ```python setup-repos.py```
 
-You will be asked to provide username and password of your GitHub account and the course you want to work with (must match the *githuborg = 'CS5500'* in config.py).
+You will be asked to provide username and password of your GitHub account and the course you want to work with (must match the *githuborg* in config.py).
