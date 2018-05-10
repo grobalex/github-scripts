@@ -27,3 +27,18 @@ This python script is used to setup a classroom GitHub environment with individu
 | mike  | Fall18-103  |
 | jack  | Fall18-101  |
 | tom  | Fall18-102  |
+
+
+4. Edit *config.py* to match the parameters of your github course:
+
+```
+githuburl = 'github.ccs.neu.edu'
+githuborg = 'CS5500'
+```
+5. Execute the python script with:
+
+```*python setup-repos.py*```
+
+You will be asked to provide username and password of your GitHub account and the course you want to work with (must match the config.py githuborg).
+
+```
