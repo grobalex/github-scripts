@@ -4,7 +4,7 @@
 
 This python script is used to setup a classroom GitHub environment with individual student repos and team repos for group work.
 
-######Configuration: 
+###### Configuration: 
 
 1.  In /course-specifics add a folder with your course number e.g. CS5600 
 1.1 In the new newly created folder create two files: 
