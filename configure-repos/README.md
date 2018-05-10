@@ -6,10 +6,10 @@ This python script is used to setup a classroom GitHub environment with individu
 
 ## Configuration: 
 
-1.  In /course-specifics add a folder with your course number e.g. CS5600 
+1.  In */course-specifics* add a folder with your course number e.g. CS5600 
 2.  In the new newly created folder create two files: 
-    directorystructure-team.txt
-    directorystructure-individual.txt
+    **directorystructure-team.txt
+    directorystructure-individual.txt**
    
     These files will define the directory structure you want each repo to have. One directory name per line. 
     
