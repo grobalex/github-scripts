@@ -35,4 +35,4 @@ You will be promted to enter one of the follow four (4) options:
    3. Push
    4. Quit 
    
-  **Pull and Push will also ask if this is a team or individual request which will allow the script to pull the correct information from the csv file** 
+  *Pull and Push will also ask if this is a team or individual request which will allow the script to pull the correct information from the csv file* 
