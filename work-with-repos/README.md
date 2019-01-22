@@ -6,7 +6,7 @@ This python script is used to clone, push and pull individual student repos and 
 ## Configuration: 
 
 1.  In */course-specifics* add a folder with your course number e.g. CS5600 
-2.  In the folder from step 1 create a CSV file with two columns, the first being Student Individual Number and the second being Team assignment 
+2.  In the folder from step 1 create a CSV file with two columns, the first being student Individual Number and the second being Team assignment 
 3. Edit *config.py* to match the parameters of your github course:
 
 ```
@@ -14,7 +14,7 @@ githuburl = 'github.ccs.neu.edu'
 githuborg = 'CS5500'
 localgitlocation = 'repos'
 ```
-5. Execute the python script with:
+4. Execute the python script with:
 
 ```python maineditrepo.py```
 
