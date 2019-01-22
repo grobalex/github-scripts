@@ -6,19 +6,8 @@ This python script is used to clone, push and pull individual student repos and 
 ## Configuration: 
 
 1.  In */course-specifics* add a folder with your course number e.g. CS5600 
-2.  In the folder from step 1 create a CSV file with two columns, the first being CCIS_ID and the second being Team assignment 
-
-| CCIS_ID  | TEAM |
-| ------------- | ------------- |
-| tim  | Fall18-101  |
-| alex  | Fall18-102  |
-| matt  | Fall18-101  |
-| mike  | Fall18-103  |
-| jack  | Fall18-101  |
-| tom  | Fall18-102  |
-
-
-4. Edit *config.py* to match the parameters of your github course:
+2.  In the folder from step 1 create a CSV file with two columns, the first being Student Individual Number and the second being Team assignment 
+3. Edit *config.py* to match the parameters of your github course:
 
 ```
 githuburl = 'github.ccs.neu.edu'
