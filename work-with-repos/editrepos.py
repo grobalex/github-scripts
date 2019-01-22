@@ -28,7 +28,7 @@ def returnAllStudents():
     checkGlobalVar()
     temp = []
     for student in studentteamassignments:
-        temp.append('Student-' + student[0] + '-F19')
+        temp.append('Student-' + student[0] + '-SP19')
     return temp
 
 
