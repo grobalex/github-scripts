@@ -30,6 +30,6 @@ You will be promted to enter one of the follow four (4) options:
 
 move_files.sh is a small bash script that moves [name].pdf into their respective folder matching the pdf [name]. 
 
-1. Copy the pdf's and move_files.sh into the the /repo directory
-2. Run move_files.sh
+1. Copy the pdf's and move_file.sh into the the /repo directory
+2. Run move_file.sh
 3. Any files it cannot find a match will not be moved
