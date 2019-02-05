@@ -53,7 +53,7 @@ def createRepoStructure( repo_name, flag):
 def createRepoStructureHelper(repo_name, listofdir):
 	for dirs in listofdir:
 		data = json.loads('{"message": "'+ dirs +'", "content": "dGVzdA=="}')	
-		response = requests.put('https://%s/api/v3/repos/%s/contents/%s/test.txt' % (githuburl, githuborg+'/'+repo_name, dirs), auth=(user, passwd), headers={'Content-Length': '0'}, json = data)		
+		response = requests.put('https://%s/api/v3/repos/%s/contents/%s/.ignore' % (githuburl, githuborg+'/'+repo_name, dirs), auth=(user, passwd), headers={'Content-Length': '0'}, json = data)		
 	try:
 		response.raise_for_status()
 		print('Created repo dir structure successfully')
